@@ -5,33 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
     <title>E-class</title>
 </head>
-<body class="bg-danger">
-    <div class="container">
-          <div class="row align-items-center" >
-        <form>
-            <div class="col-lg-12 col-md-6 col-sm-12">
-                <h1>SIGN IN</h1>
-                <div id="emailHelp" class="form-text">Enter your credental to acces your account</div>
+<body>
+    <div class="container d-flex justify-content-center mt-5">
+         
+          <div class="log_content bg-light px-3">
+            <div >
+            <h1 class=" border-start px-2 m-3  mx-5 border-info border-5 fw-bold fs-2">E-classe</h1>
+            <h3 class="text-center ">SIGN IN</h3>
+            <p class="text-center text-muted">Enter your credental to acces your account</p>
+          </div>
+            <form class="m-4" >
+
+            <div>
+
               <label for="exampleInputEmail1" class="form-label">Email</label>
-              <input type="email" class="form-control w-50" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <input type="email" class="form-control w-100" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your E-mail">
               
             </div>
-            <div class="col-lg-12 col-md-6 col-sm-12">
+            <div class="mb-4">
               <label for="exampleInputPassword1" class="form-label">Password</label>
-              <input type="password" class="form-control w-50" id="exampleInputPassword1">
+              <input type="password" class="form-control w-100" id="exampleInputPassword1" placeholder="Enter your password">
             </div>
-            <!-- <div class="mb-4 form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Check me out</label>
-            </div> -->
-            <button type="submit" class="btn btn-info m-3 w-25 align-items-center">SIGN IN</button>
+            
+            <button type="submit" class="btn btn-info w-100">SIGN IN</button>
+            <span class="text-center">Forgot your password ? <a href="">Reset password</a></span>
           </form>
 
         </div>
 
-
+      
 
 
 
